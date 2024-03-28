@@ -1,0 +1,419 @@
+* {
+  font-family: "Roboto";
+}
+
+.home-main-container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: #000000;
+}
+
+.left-navbar-cont {
+  width: 22%;
+}
+
+.mb-nav-bar-cont {
+  width: 100%;
+  margin-left: 0px;
+}
+
+.right-cont {
+  width: 100%;
+  padding: 15px 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .left-navbar-cont {
+    display: none;
+  }
+  .left-navbar-cont {
+    width: unset;
+  }
+
+  .mb-nav-bar-cont {
+    width: unset;
+  }
+}
+
+.right-header-cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.home-cont-main-hed {
+  font-size: 40px;
+  margin-top: 2px;
+  font-weight: bolder;
+}
+
+.wish-user {
+  font-size: 25px;
+  margin-top: 1px;
+}
+
+@media screen and (max-width: 576px) {
+  .top-header-hed-cont {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .home-cont-main-hed {
+    font-size: 16px;
+  }
+
+  .wish-user {
+    font-size: 14px;
+  }
+}
+
+.popup-content {
+  padding-left: 0px;
+  width: 100%;
+}
+
+.user-name {
+  background-image: linear-gradient(#6adf4a, #dee70d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.company-name {
+  color: #49d907;
+}
+
+.home-main-btn {
+  background-color: #57e914;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+@media screen and (max-width: 576px) {
+  .home-main-btn {
+    padding: 10px 10px;
+  }
+}
+
+.home-main-btn:hover {
+  transform: scale(1.03);
+}
+
+.analyses-cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.population-graph-cont {
+  background-color: #343432;
+  border-radius: 5px;
+  width: 38%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pie-charts-cont {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #343432;
+  border-radius: 5px;
+  width: 25%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .population-graph-cont {
+    width: 95%;
+  }
+  .analyses-cont {
+    flex-direction: column;
+  }
+
+  .pie-charts-cont {
+    margin-top: 5px;
+    width: 100%;
+  }
+}
+
+.population-graph-hed {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 10px;
+  color: #fff;
+}
+
+.Country-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.country {
+  margin-left: 9px;
+  color: #ffffff90;
+}
+
+.line {
+  border: 1px solid #7c827c;
+  width: 95%;
+}
+
+.get-more-data-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  color: #fff;
+  margin: 0px;
+}
+
+.fetch-data-btn {
+  background-color: #49d907;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 5px 15px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.recent-posts-cont {
+  background-color: #343432;
+  border-radius: 5px;
+  width: 30%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+  .recent-posts-cont {
+    width: 100%;
+    margin-top: 5px;
+  }
+}
+
+.recent-post-cont-hed {
+  color: #fff;
+  text-align: center;
+}
+
+.post-card {
+  display: flex;
+  border-radius: 10px;
+  background-color: #00000050;
+  width: 95%;
+  padding: 8px;
+  margin: 10px 20px;
+  color: #fff;
+  padding-top: 0px;
+}
+
+.post-logo {
+  height: 50px;
+  border-radius: 50%;
+  margin: 5px 10px;
+}
+
+.post-hed-cont {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin: 0px;
+}
+
+.mail-post {
+  color: #ffffff80;
+  margin-left: 5px;
+}
+
+.post-pera {
+  color: #c4cbc4;
+  font-size: 14px;
+}
+
+.url {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.likes-cont {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: #5c625c;
+  margin-top: 0px;
+}
+
+.post {
+  margin: 0px;
+}
+
+.get-more-data-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.assets-cont {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.assets-hed-cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+.coins-card-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coin-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #333534;
+  border-radius: 8px;
+  padding: 10px 15px;
+  color: #fff;
+  height: 200px;
+  width: 190px;
+  margin: 9px;
+}
+
+.card-hed-cont {
+  display: flex;
+  align-items: center;
+}
+
+.profil-bg {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.prices-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 0px;
+  line-height: 1px;
+}
+
+.card-price {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+
+.card-price-growth {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #d5d5d5;
+  font-weight: bold;
+}
+
+.card-btn-cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coins-trade-btn {
+  border: 0px;
+  outline: none;
+  padding: 6px 15px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.nbts-icon {
+  color: #5fe283;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.eft-icon {
+  color: #adf98e;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.wpct-icon {
+  color: #19b400;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.ret-icon {
+  color: #fad204;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.wet-icon {
+  color: #3390f4;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.nbst {
+  background-color: #5fe283;
+}
+
+.eft {
+  background-color: #adf98e;
+  color: #1f221e;
+}
+
+.wpct {
+  background-color: #19b400;
+  color: #1f221e;
+}
+
+.ret {
+  background-color: #fad204;
+  color: #1f221e;
+}
+
+.wet {
+  background-color: #3390f4;
+  color: #1f221e;
+}
